@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url(general/reset.css);
+@import url(general/inputs.css);
+@import url(general/button.css);
+
+:root {
+    --font: "VT323", monospace;
+    --font-weight: 400;
+    --font-style: normal;
+    --font-color: #33FF00;
+
+    --background-color: black;
+
+    --generalLabel-size: 35px;
+    --generalInput-size: 35px;
+    --generalButton-size: 35px;
+}
+
+html {
+    font-family: var(--font);
+    font-weight: var(--font-weight);
+    font-style: var(--font-style);
+
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.site-title {
+    font-size: 50px;
+}
+
+.textShadow {
+    text-shadow:
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+.boxShadow {
+    box-shadow:
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+.btnSpace {
+    margin-top: 25px;
+}
